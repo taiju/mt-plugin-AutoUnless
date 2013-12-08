@@ -7,3 +7,6 @@ AutoUnless plugin automatically adds \*unless\* tag if defined \*if\* tag and no
 For example, automatically adds the `mt:UnlessWebsite` tag, `mt:EntryUnlessCategory` tag, and etc.
 
 See `t/` directory.
+
+## Requirements
+This plugin requires [TagMissing](https://github.com/taiju/mt-plugin-tagmissing) plugin.
