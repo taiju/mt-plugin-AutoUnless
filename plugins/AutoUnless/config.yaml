@@ -1,0 +1,9 @@
+id: autounless
+key: autounless
+name: AutoUnless
+version: 0.1
+author_name: taiju
+author_link: htt://taiju.hatenablog.com/  
+description: Automatically adds *unless* tag.
+callbacks:
+  tag_missing: $autounless::AutoUnless::Callbacks::_tag_missing
